@@ -1,0 +1,1984 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+  
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NBMRDKQ');</script>
+    <!-- End Google Tag Manager -->
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+     
+    <meta name="google-site-verification" content="m_3TAXDreGTFyoYnEmU9mcKB4Xtw5mw6yRkuJtXRKxM" />
+    <title>The List of Bugs - Discuss Scratch</title>
+    
+    <link rel="stylesheet" href="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__/vendor/redmond/jquery.ui.all.css" />
+    
+        <link href="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__/css/main.css" rel="stylesheet" type="text/css" />
+   
+   <link rel="stylesheet" href="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//css/handheld.css" media="handheld, only screen and (max-device-width:480px)"/>
+
+    
+    <!-- base forum css styles -->
+    <link href="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//djangobb_forum/themes/base.css" rel="stylesheet">
+    <!-- Forum theme colour scheme -->
+    <link href="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//djangobb_forum/themes/scratch_default_theme_copy/css/default_cs.css" rel="stylesheet">
+    <link href="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//djangobb_forum/themes/scratch_default_theme_copy/style.css" rel="stylesheet">
+    <!-- Highlightjs goodies -->
+    <link href="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//djangobb_forum/css/pygments.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//js/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__/js/lib/underscore-min.js"></script>
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//js/gaq-ga4.js"></script>
+    <script>
+      window.console||(window.console={log:$.noop,error:$.noop,debug:$.noop}); // ensure console fails gracefully when missing
+      var sessionCookieName = 'scratchsessionsid';
+      
+      
+      
+      
+
+    </script>
+    <script type="text/javascript">
+        function getCookie(name) {
+            var cookieValue = null;
+            if (document.cookie && document.cookie != '') {
+                var cookies = document.cookie.split(';');
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = jQuery.trim(cookies[i]);
+                    // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+
+        function setCookie(name, value, days) {
+            var expires;
+
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toGMTString();
+            } else {
+                expires = "";
+            }
+            document.cookie = escape(name) + "=" + escape(value) + expires + "; path=/";
+        }
+    </script>
+    
+    <script>
+      
+
+var Scratch = Scratch || {};
+Scratch.INIT_DATA = Scratch.INIT_DATA || {};
+
+
+
+Scratch.INIT_DATA.ADMIN = false;
+Scratch.INIT_DATA.LOGGED_IN_USER = {
+  
+  options: {
+    
+    
+  }
+};
+
+Scratch.INIT_DATA.project_comments_enabled = true;
+Scratch.INIT_DATA.gallery_comments_enabled = true;
+Scratch.INIT_DATA.userprofile_comments_enabled = true;
+
+Scratch.INIT_DATA.BROWSERS_SUPPORTED = {
+
+  chrome: 35,
+  firefox: 31,
+  msie: 8,
+  safari: 7
+};
+
+Scratch.INIT_DATA.TEMPLATE_CUES = {
+
+  unsupported_browser: true,
+  welcome: true,
+  confirmed_email: false
+};
+
+
+
+
+
+
+
+Scratch.INIT_DATA.IS_IP_BANNED = false;
+
+Scratch.INIT_DATA.GLOBAL_URLS = {
+  'media_url': '//uploads.scratch.mit.edu/',
+  'static_url': '//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__/',
+  'static_path': '/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__/'
+}
+
+Scratch.INIT_DATA.IS_SOCIAL = false;
+
+    </script>
+    
+
+    <meta property="og:type" content="website" />
+    
+    <meta property="og:description" content="Make games, stories and interactive art with Scratch. (scratch.mit.edu)"/>
+    
+
+    
+    <meta property="og:title" content="Scratch - Imagine, Program, Share"/>
+    <meta property="og:url" content="https://scratch.mit.edu/discuss/topic/795087/?page=1" />
+    
+
+  </head>
+
+  <body class="" >
+  
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBMRDKQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  
+  <!--[if lte IE 8]>
+  <div class="unsupported-browser banner" data-cue="unsupported_browser">
+    <div class="container">
+      <span>Scratch supports Internet Explorer 9+. We suggest you upgrade to <a href="/info/faq/#requirements">a supported browser</a>, <a href="/scratch2download/">download the offline editor</a>, or <a href="https://en.scratch-wiki.info/wiki/List_of_Bug_Workarounds">read about common workarounds</a>.</span>
+    </div>
+  </div>
+  <![endif]-->
+    <div id="pagewrapper">
+      
+      
+      <div id="topnav" >
+      <div class="innerwrap">
+        <div class="container">
+          <a href="/" class="logo"><span class="scratch"></span></a>
+          <ul class="site-nav">
+            <li><a id="project-create" href="/projects/editor/?tip_bar=home">Create</a></li><li><a href="/explore/projects/all">Explore</a></li><li ><a href="/ideas">Ideas</a></li><li class="last"><a href="/about/">About</a></li>
+          </ul>
+          
+          <form class="search" action="/search/projects" method="get" class="search">
+            <input type="submit" class="glass" value="">
+            
+	          <input id="search-input" type="text" placeholder="Search" name="q" >
+          </form>
+          
+          <ul class="account-nav"></ul>
+          <script type="text/template" id="template-account-nav-logged-out">
+          <ul class="account-nav" >
+              <li class="join-scratch"><a href="/join">Join Scratch</a></li><li id="login-dropdown" class="sign-in dropdown"><span data-toggle="dropdown" class="dropdown-toggle"><span>Sign in</span></span><div class="popover bottom dropdown-menu"><div class="arrow"></div><div class="popover-content" ><form method="post" id="login" action="#"><label for="username">Username</label><input type="text" id="login_dropdown_username" name="username" maxlength="30" class="wide username" /><label for="password" class="password">Password</label><input type="password" name="password" class="wide password" /><div class="ajax-loader" style="display:none; float: left;"></div><button type="submit">Sign in</button><span class="forgot-password"><a href="/accounts/password_reset/">Need help?</a></span><div class="error"></div></form></div></div></li><li data-control="modal-login" class="sign-in mobile"><span>Sign in</span></li>
+          </ul>
+          </script>
+          <script type="text/template" id="template-account-nav-logged-in">
+          <ul class="account-nav logged-in"><li class="messages"><a title="messages - updates and notices" href="/messages" class="messages-icon"><span class="notificationsCount none">0</span></a></li><li class="my-stuff"><a title="my stuff - manage projects and studios" href="/mystuff/" class="mystuff-icon"></a></li><li class="logged-in-user dropdown"><span class="user-name dropdown-toggle" data-toggle="dropdown"><img class="user-icon" src="<%- LOGGED_IN_USER.model.thumbnail_url %>" width="24" height="24"><%- LOGGED_IN_USER.model.username_truncated %><span class="caret"></span></span><div class="dropdown-menu blue" ><ul class="user-nav"><li><a href="<%- LOGGED_IN_USER.model.profile_url %>">Profile</a></li><li><a href="/mystuff/">My Stuff</a></li><% if (LOGGED_IN_USER.model.is_educator){ %><li><a href="/educators/classes/">My Classes</a></li><% } %><% if (LOGGED_IN_USER.model.is_student){ %><li><a href="/classes/<%- LOGGED_IN_USER.model.classroom_id %>/">My Class</a></li><% } %><li><a href="/accounts/settings/">Account settings</a></li><li id="logout" class="logout divider"><form method="post" action="/accounts/logout/"><input type='hidden' name='csrfmiddlewaretoken' value='cOPDWGZiG4XxkvkGMeK4DEMdZ4v3C6sJ' /><input type="submit" value="Sign out"></form></li></ul></div></li></ul>
+          </script>
+          <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__/js/account-nav.js"></script>
+        </div>
+        <iframe class="iframeshim" frameborder="0" scrolling="no"><html><head></head><body></body></html></iframe>
+      </div><!-- innerwrap -->
+      </div>
+        
+
+      <div class="privacy-update banner" style="display:none;">
+        <div class="container">
+          <span>The Scratch privacy policy has been updated, effective May 25, 2023. You can see the new policy <a href="/privacy_policy">here</a>.</span>
+          <div class="close">x</div>
+        </div>
+      </div>
+
+      <div class="confirm-email banner" data-cue="confirmed_email" style="display:none;">
+        <div class="container">
+          <span><a id="confirm-email-popup" href="#">Confirm your email</a> to enable sharing. <a href="/info/faq/#accounts">Having trouble?</a></span>
+          <div class="close">x</div>
+        </div>
+      </div>
+
+      <div class="email-outage banner" style="display:none; background-color:#FF661A;">
+        <div class="container">
+          <span>We are experiencing a disruption with email delivery. If you are not receiving emails from us, please try after 8am EST.</span>
+          <div class="close">x</div>
+        </div>
+      </div>
+
+        
+        <div class="container" id="content">
+        <div id="alert-view"></div>
+        
+    
+
+
+
+<div id="djangobbwrap">
+<div id="djangobbindex" class="djangobb">
+<div id="brdheader" class="box">
+	<div class="box-head">
+		<h2><!--<span><a href="/discuss/">-->Discuss Scratch<!--</a></span>--></h2>
+		<p><span></span></p>
+	</div>
+	<div id="brdmenu" class="box-content">
+		
+		<ul>
+		
+			<li id="navindex"><a href="/discuss/">Discussion Home</a></li>
+			
+		
+		</ul>
+	</div>
+</div>
+
+
+
+
+    
+        
+    
+
+    
+
+<div class="linkst">
+    
+        <div class="follow-topic top">
+            <img src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//images/ajax-loader.gif" class="loading" style="display: none;" alt="loading..." />
+            <p class="error" style="display: none;">There was an error :( Try again?</p>
+            <form method="post" action="/discuss/subscription/topic/795087/add/">
+                <input type='hidden' name='csrfmiddlewaretoken' value='cOPDWGZiG4XxkvkGMeK4DEMdZ4v3C6sJ' />
+                <button type="submit"  class="follow-button button blue" title="">Follow Discussion</button>
+            </form>
+            <form method="post" action="/discuss/subscription/topic/795087/delete/">
+                <input type='hidden' name='csrfmiddlewaretoken' value='cOPDWGZiG4XxkvkGMeK4DEMdZ4v3C6sJ' />
+                <button type="submit" style="display: none;" class="unfollow-button button grey" title="Stop getting messages about new posts to this discussion">Unfollow Discussion</button>
+            </form>
+        </div>
+    
+
+    
+
+<div class="pagination">
+    
+        <span class="disabled prev">&lsaquo;&lsaquo; previous</span>
+    
+    
+        
+            
+                <span class="current page">1</span>
+            
+        
+    
+        
+            
+                <a href="?page=2" class="page">2</a>
+            
+        
+    
+        
+            
+                <a href="?page=3" class="page">3</a>
+            
+        
+    
+        
+            
+                <a href="?page=4" class="page">4</a>
+            
+        
+    
+        
+            ...
+        
+    
+        
+            
+                <a href="?page=14" class="page">14</a>
+            
+        
+    
+        
+            
+                <a href="?page=15" class="page">15</a>
+            
+        
+    
+        
+            
+                <a href="?page=16" class="page">16</a>
+            
+        
+    
+        
+            
+                <a href="?page=17" class="page">17</a>
+            
+        
+    
+    
+        <a href="?page=2" class="next">next &rsaquo;&rsaquo;</a>
+    
+</div>
+
+
+
+    <ul>
+        <li>
+        <a href="/discuss/">Discussion Forums</a> </li><li>&raquo; <a href="/discuss/3/">Bugs and Glitches</a> </li><li>&raquo; The List of Bugs
+        <a href="/discuss/feeds/topic/795087/"><img src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//djangobb_forum/img/feed-icon-small.png" alt="[RSS Feed]" title="[RSS Feed]" class="breadcrumb_rss" /></a>
+        </li>
+    </ul>
+</div>
+
+
+    <div id="p8285785" class="blockpost roweven firstpost">
+        <a name="post-8285785"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#1</span><a href="/discuss/post/8285785/">Dec. 16, 2024 17:53:50</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/Rosics/">Rosics</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/Rosics/"><img src="//cdn2.scratch.mit.edu/get_image/user/134551631_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							500+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html">✈️ <span class="bb-bold">English | <a href="https://scratch.mit.edu/discuss/post/8312603/">Español</a></span> | <span class="bb-bold"><a href="https://scratch.mit.edu/discuss/topic/802193/">Deutsch</a></span><br/><br/>⛽️ My browser / operating system: ChromeOS 14541.0.0, Chrome 131.0.0.0, Flash 32.0 (release 0)<br/><br/><span class="bb-bold">⚙️  Changelog: <a href="https://bugschangelog.vercel.app/">https://bugschangelog.vercel.app/</a></span><br/><br/>⚠️ <span class="bb-big"><span class="bb-bold"><span style="color:red">DO NOT SPAM OR POST SCRATCHBLOCKS HERE!!</span></span></span><br/>It makes devices slow to load <span class="bb-small">like mine</span>, so please do not, also it clutters, if you want to test your blocks, go to the <a href="https://scratch.mit.edu/discuss/topic/741323/">Official scratchblocks Testing Topic</a>.<br/><br/>⚠️ <span class="bb-big"><span class="bb-bold"><span style="color:red">DO NOT POST BROWSER EXTENSIONS/USERSTYLES HERE!!</span></span></span><br/>Due to this <a href="https://scratch.mit.edu/discuss/post/2907564/">policy</a>. So therefore do not post Browser Extensions or Userstyles here.<br/><br/>=-=-=-=-=-=-=-=-=-=-=<br/><br/> <span class="bb-bold"><span class="bb-big">♻️ Useful Links:</span></span><br/><br/><span class="bb-bold"><a href="https://scratch.mit.edu/discuss/topic/787945/">3.0 scratchblock bugs.</a><br/><br/><a href="https://scratch.mit.edu/discuss/post/7340927/">Color Consistiencies in Accessibility Update List.</a><br/><br/><a href="https://scratch.mit.edu/discuss/topic/366461/">Misconceptions about the project size limit.</a></span><br/><br/>=-=-=-=-=-=-=-=-=-=-=<br/><br/>⛔ <span class="bb-bold"><span class="bb-big">Important Bugs:</span></span><br/><br/><span class="bb-bold"></span><ul><li><span class="bb-bold">Sometimes when going to a comment from a link or messages, it takes forever to load, however you can:<br/>1. Go to the profile and find your comment.<br/>2. Hard reset Ctrl+F5 (Command+F5).<br/>3. Reload page a bunch of times.<br/>4. Delete browser history. (If you need to do this)<br/>5. Delete cookies and reload. (You will be signed out but sign back in) (if you need to do this)<br/>6. If it didn't work repeat the steps.<br/></span></li></ul><span class="bb-bold"></span><ul><li><span class="bb-bold">You get repeatedly singed out on 2.0 pages <span class="bb-small"><a href="https://scratch.mit.edu/discuss/topic/799953/">source</a></span> and see the Privacy Policy Banner from 2023. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/topic/801164/">source</a></span> this may be due to some signatures using tinypic <a href="https://en.wikipedia.org/wiki/TinyPic#:%7E:text=The%20service%20shut%20down%20on%2C2019%20due%20to%20declining%20income.">which shut down on September 9th 2019 due to declining income</a>.<br/></span></li></ul><span class="bb-bold"><img src="https://u.cubeupload.com/rosics/Screenshot2025012161.png"></img></span><br/><br/>=-=-=-=-=-=-=-=-=-=-=<br/><br/>✏️ <span class="bb-big"><span class="bb-bold">Editor Bugs:</span></span><br/><br/><ul><li>Some reporters are aligned incorrectly. Lists are aligned to the left, and custom block boolean inputs are aligned to the right.<br/></li></ul><img src="https://u.cubeupload.com/amp_electrecuted/Screenshot2025012616.png"></img><br/>Credits to <a href="https://scratch.mit.edu/users/AmpElectrecuted/">AmpElectrecuted</a><br/><ul><li>When switching the rays backdrop to bitmap then back to vector, it crashes. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/topic/800689/">source</a></span><br/></li></ul><img src="https://u.cubeupload.com/rosics/4cScreenshot2025012021.png"></img><br/><ul><li>There's a small gap between block dropdowns. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/topic/800927/">source</a></span><br/></li></ul><ul><li>Sounds get quieter when visiting the sound tab. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/topic/801234/">source</a></span><br/></li></ul><img src="https://u.cubeupload.com/rosics/Screenshot2025012015.png"></img><br/><ul><li>Sometimes when using bitmap and placing down a circle, it should go to bitmap after being vector when deselecting it, however this user reports that it doesn't go to bitmap after deselecting it. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/topic/801419/">source</a></span><br/></li></ul><ul><li>When putting a reporter in a color input and undoing, the color input disappears. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/topic/798640/">source</a></span><br/></li></ul><img src="https://u.cubeupload.com/rosics/a8cScreenshot2025010673.png"></img><br/><ul><li>Long sounds get muted after a while.<br/></li></ul><img src="https://u.cubeupload.com/rosics/Screenshot2025010120.png"></img><br/><ul><li>When putting nothing in the custom block, you get a half cut stack block.<br/></li></ul><img src="https://u.cubeupload.com/rosics/7cfScreenshot2025010115.png"></img><br/><ul><li>Sound editor doesn't load and clicking a few sprites throws an error. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/post/8301309/">source</a></span><br/></li></ul><img src="https://u.cubeupload.com/rosics/IMG2388.jpeg"></img><br/> <span class="bb-small">Credits to GratefulGamer9398233</span><br/><ul><li>This bug after choosing a sprite where it still shows the &ldquo;choose a sprite&rdquo; tooltip.<br/></li></ul><img src="https://u.cubeupload.com/rosics/3ebScreenshot2024122310.png"></img><br/><ul><li>When you try to delete a sprite at the bottom, the pop-up goes off the screen.<br/></li></ul><img src="https://u.cubeupload.com/rosics/Screenshot2024122310.png"></img><br/><ul><li>On the top bar of the editor, the share button and the project name and see project page is condensed due to the debug button, same when you see inside a project you do not own.<br/></li></ul><img src="https://u.cubeupload.com/rosics/b5dScreenshot2024122310.png"></img> <img src="https://u.cubeupload.com/rosics/776Screenshot2024122310.png"></img><br/><br/><br/>This is due to the icons using bit ly, some schools block it.<br/><blockquote><p class="bb-quote-author">starlightsparker wrote:</p>Debug is broken on mobile.<br/><br/><img src="https://u.cubeupload.com/starlightsparkles/0EEC666A2C3E432B9699.jpeg"></img><br/><span class="bb-small">Credits to starlightsparker</span><br/> </blockquote><ul><li>Debug icon not loading on some devices.<br/></li></ul><br/>⚙️ <span class="bb-bold"><span class="bb-big">Technical Bugs:</span></span><br/><br/><ul><li>Scratch cloud variable monitor page is not loading, also scratches cloud variables do not work at all as well <span class="bb-small"><a href="https://scratch.mit.edu/discuss/post/8296861/">source</a></span><span class="bb-small"></span> this is due to an endpoint clouddata.scratch.mit.edu (scratch cloud server URL) is pointing to. There is still DNS but no ping. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/post/8295654/">source </a></span> Make a new topic for cloud data problems.<br/></li></ul><div class="code"><pre>ampthescratcher@fedora:~$ ping clouddata.scratch.mit.edu<br/>ping: clouddata.scratch.mit.edu: No address associated with hostname<br/>ampthescratcher@fedora:~$ dig clouddata.scratch.mit.edu<br/><br/>; &lt;&lt;&gt;&gt; DiG 9.18.30 &lt;&lt;&gt;&gt; clouddata.scratch.mit.edu<br/>;; global options: +cmd<br/>;; Got answer:<br/>;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: 46814<br/>;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1<br/><br/>;; OPT PSEUDOSECTION:<br/>; EDNS: version: 0, flags:; udp: 65494<br/>;; QUESTION SECTION:<br/>;clouddata.scratch.mit.edu.	IN	A<br/><br/>;; ANSWER SECTION:<br/>clouddata.scratch.mit.edu. 53	IN	CNAME	d3tm0m070ovcf4.cloudfront.net.<br/><br/>;; AUTHORITY SECTION:<br/>cloudfront.net.		53	IN	SOA	ns-418.awsdns-52.com. hostmaster.cloudfront.net. 1377556270 16384 2048 1048576 60<br/><br/>;; Query time: 0 msec<br/>;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)<br/>;; WHEN: Wed Dec 25 13:25:47 GMT 2024<br/>;; MSG SIZE  rcvd: 164</pre></div><br/> ✉️ <span class="bb-bold"><span class="bb-big">Website Bugs:</span></span><br/><br/><ul><li>Sometimes the 1st comment on your profile is older then the account. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/post/8358725/">source</a></span><br/></li></ul><ul><li>Sometimes signatures go too high and show the purple background. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/post/8358955/">source</a></span><br/></li></ul><img src="http://u.cubeupload.com/alboxer2000/Screenshot20250123al.png"></img><br/><span class="bb-small">credits to <a href="https://scratch.mit.edu/users/alboxer2000/">alboxer2000</a></span><br/><ul><li>Sign in and join scratch hover background doesn't fit the navbar on 2.0 pages.<br/></li></ul><img src="https://u.cubeupload.com/rosics/Screenshot2025012281.png"></img><br/><ul><li>Scratch is indexing projects slowly. <span class="bb-small"> <a href="https://scratch.mit.edu/discuss/topic/800622/">source</a></span><br/></li></ul><ul><li>When ST merges a topic, it says the wrong OP. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/topic/800886/">source</a></span><br/></li></ul><img src="https://u.cubeupload.com/rosics/Screenshot2025012021.png"></img><br/><img src="https://u.cubeupload.com/rosics/69eScreenshot2025012021.png"></img><br/><ul><li>Sometimes project thumbnails break. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/topic/801144/">source</a></span><br/></li></ul><img src="https://u.cubeupload.com/23i4u2io34u3io/IMG2697.jpeg"></img><br/><span class="bb-small">Credits to <a href="http://scratch.mit.edu/users/GratefulGamer9398233">GratefulGamer9398233</a></span><br/><ul><li>Next function does not work on <a href="https://scratch.mit.edu/accounts/login/">https://scratch.mit.edu/accounts/login/</a> when you log in with a next function (e.g. ?next=/mystuff/) it does not work.<br/></li></ul><ul><li>When making a comment with an unsupported emoji, the error is broken. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/post/8316604/">source</a></span><br/></li></ul><img src="https://u.cubeupload.com/alboxer2000/Screenshot20250104al.png"></img><br/><span class="bb-small">Credits to alboxer2000</span><br/><ul><li>When deleting a studio, the alert is empty.<br/></li></ul><img src="https://u.cubeupload.com/rosics/Screenshot2025010132.png"></img><br/><ul><li>Sort by studio's Hosted by Me is forever stuck at empty.<br/></li></ul><img src="https://u.cubeupload.com/rosics/e67Screenshot2025010112.png"></img><br/><ul><li>Debug button in editor's hover background color width is too small.<br/></li></ul><img src="https://u.cubeupload.com/rosics/9b2Screenshot2025010114.png"></img><br/><ul><li>Bad margin here.<br/></li></ul><img src="https://u.cubeupload.com/rosics/9e5Screenshot2025010114.png"></img><br/><ul><li>&ldquo;&rdquo;report&ldquo; button&rdquo; should be capitalized, I mean your directly stating the name of the button which is &ldquo;Report&rdquo; not &ldquo;report&rdquo;, if it was just &ldquo;report&rdquo; not in quotes, sure it would work fine.<br/></li></ul><img src="https://u.cubeupload.com/rosics/Screenshot2025010114.png"></img><br/><ul><li>New topic tool-tip should be updated to reflect the new forums.<br/></li></ul><img src="https://u.cubeupload.com/rosics/eceScreenshot2025010112.png"></img><br/><ul><li>On the BBCode toolbar, the icons with drop-downs are bigger than the arrows, also the scratchblocks icon in the BBCode bar is the 2.0 stack block.<br/></li></ul><img src="https://u.cubeupload.com/rosics/c46Screenshot2025010112.png"></img><br/><ul><li>When hovering over messages on 3.0 pages the unread messages counter doesn't expand with the icon.<br/></li></ul><img src="https://u.cubeupload.com/rosics/929Screenshot2025010111.png"></img><br/><ul><li>Search bar on 2.0 pages has a little inlet div. <span class="bb-small">Also highlight is blue, but that's for Color Consistiencies in Accessibility Update List</span><br/></li></ul><img src="https://u.cubeupload.com/rosics/339Screenshot2025010111.png"></img><br/><ul><li>Studios the Project is in counter in my stuff always shows 0.<br/></li></ul><img src="https://u.cubeupload.com/rosics/Screenshot2025010111.png"></img><br/><ul><li>On 3.0 pages scratch wiki would link to scratch-wiki.info, but on 2.0 pages it links to wiki.scratch.mit.edu.<br/></li></ul><img src="https://u.cubeupload.com/rosics/949Screenshot2025010110.png"></img><br/><img src="https://u.cubeupload.com/rosics/7e3Screenshot2025010110.png"></img><br/><ul><li>Explore page doesn't locale to your language.<br/></li></ul><img src="https://u.cubeupload.com/rosics/786Screenshot2025010110.png"></img><br/><ul><li>Sometimes when posting a new post to a topic (e.g. bumping) it will not go to page 1, so you would have to bump twice or add on to things.<br/></li></ul><ul><li>You can go to any site in the post preview (the <img src="https://u.cubeupload.com/rosics/Screenshot2025010112.png"></img> button), this is because it is an Iframe (embed), which should be fixed.<br/></li></ul><ul><li>Last post will say the wrong last post. (take for example right now:<br/><img src="https://u.cubeupload.com/rosics/a6fScreenshot2025010112.png"></img> <br/>the last post was not in 2021)<br/></li></ul><ul><li>On 2.0 pages, when scratch is loading the page, at the bottom you still see &ldquo;Adobe Flash Player is not supported&rdquo;.<br/></li></ul><ul><li>Sometimes when you comment, you comment twice, this may be due to the messages not loading bug or internet issues.<br/></li></ul><img src="https://u.cubeupload.com/rosics/Screenshot2025010115.png"></img><br/><ul><li>Some categories on the homepage do not show, scratch is also temporarily disabling FPC (Front Page Curator) due to homepage issues. <br/></li></ul><img src="https://u.cubeupload.com/rosics/Screenshot2025010113.png"></img><br/><ul><li>Firefox has worse performance when running scratch projects, however, you can always try fixing NextDNS. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/post/8296545/">source</a></span> <br/></li></ul><ul><li>On 2.0 pages, you can hover over the logo from 2 pixels down, this is due to there being an &lt;a&gt; tag being that size. (80 x 48)<br/></li></ul><img src="https://u.cubeupload.com/rosics/97eScreenshot2024122410.png"></img><br/><ul><li>On 2.0 pages, there is no &lt;hr&gt; tag on account drop-down.<br/></li></ul><img src="https://u.cubeupload.com/rosics/Screenshot2024122411.png"></img><br/><ul><li>Some users made topics/posts but the counter says 0. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/post/8025028/">source</a></span><br/></li></ul><img src="https://u.cubeupload.com/rosics/Screenshot2024122585.png"></img><br/><ul><li>Sort by remixes doesn't show all projects and is in the wrong order. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/topic/795985/">source</a></span><br/></li></ul><img src="https://u.cubeupload.com/rosics/f30Screenshot2024122710.png"></img><br/><br/>=-=-=-=-=-=-=-=-=-=-=<br/><br/>❓ <span class="bb-big"><span class="bb-bold">QNA:</span></span><br/><br/>❓ <span class="bb-bold">Q</span>: <span class="bb-bold">Why doesn't my backpack load when I put stuff inside of it?</span><br/>❗️ <span class="bb-bold">A</span>: The backpack has a file limit, try deleting things.<br/><br/>❓<span class="bb-bold">Q</span>: <span class="bb-bold">Why doesn't my thing save in the editor?</span><br/>❗️ <span class="bb-bold">A</span>: The project.json file cannot exceed 5 MB, this means the code, info about sprites and assets, and any list values, no asset (sound, costumes) cannot exceed 10 MB.<br/><br/>❓ <span class="bb-bold">Q</span>: <span class="bb-bold">How do I report bugs?</span><br/>❗️ <span class="bb-bold">A</span>: A bug description, when it started, where it is, a link (if it's in a specific project, please link to it), reproduction steps, expected result, actual result, operating system, browser and Flash version (should be already there. if not, click the globe icon in the tools bar above the topic itself), screenshot.<br/><br/>❓ <span class="bb-bold">Q</span>: <span class="bb-bold">How do I find bugs?</span><br/>❗️ <span class="bb-bold">A</span>: <a href="https://scratch.mit.edu/discuss/topic/747819/">https://scratch.mit.edu/discuss/topic/747819/</a><br/><br/>=-=-=-=-=-=-=-=-=-=-=<br/><br/>✨ <span class="bb-big"><span class="bb-bold">Templates:</span></span><br/><br/><blockquote><p class="bb-quote-author">QNA Template wrote:</p>⏰ Username:<br/>♻️ Source (if applicable):<br/>❓ QNA Question:<br/>❗️ QNA Answer:</blockquote><blockquote><p class="bb-quote-author">Bug Template wrote:</p>⏰ Username:<br/>♻️ Source (if applicable):<br/>✏️ Bug: <br/>⭐️ Image (If don't have one, I will make my own):</blockquote><blockquote><p class="bb-quote-author">Useful Links Template wrote:</p>⏰ Username:<br/>♻️ Topic:<br/>✖️ Name (if don't have one I will use the exact topic name):</blockquote><blockquote><p class="bb-quote-author">Acknowledgements Template wrote:</p>⏰ Username:<br/>♻️ What should I change?:</blockquote></div>
+                        
+                            <p class="postedit"><em class="posteditmessage">Last edited by Rosics (Jan. 27, 2025 02:21:39)</em></p>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8286042" class="blockpost roweven firstpost">
+        <a name="post-8286042"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#2</span><a href="/discuss/post/8286042/">Dec. 16, 2024 19:33:33</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/Rosics/">Rosics</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/Rosics/"><img src="//cdn2.scratch.mit.edu/get_image/user/134551631_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							500+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html">reserved</div>
+                        
+                            <p class="postedit"><em class="posteditmessage">Last edited by Rosics (Jan. 24, 2025 13:19:53)</em></p>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8286371" class="blockpost roweven firstpost">
+        <a name="post-8286371"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#3</span><a href="/discuss/post/8286371/">Dec. 16, 2024 22:30:02</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/8to16/">8to16</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/8to16/"><img src="//cdn2.scratch.mit.edu/get_image/user/141263923_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							1000+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html"><blockquote><p class="bb-quote-author">Rosics wrote:</p><span class="bb-small">(<a href="https://scratch.mit.edu/discuss/post/8285785/">#1</a>)</span><br/>So on the top bar of the editor, the share button and the project name and see inside is condensed due to the debug button.<br/></blockquote>this seems to be in the process of being fixed according to a PR</div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8286373" class="blockpost roweven firstpost">
+        <a name="post-8286373"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#4</span><a href="/discuss/post/8286373/">Dec. 16, 2024 22:30:50</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/Rosics/">Rosics</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/Rosics/"><img src="//cdn2.scratch.mit.edu/get_image/user/134551631_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							500+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html"><blockquote><p class="bb-quote-author">8to16 wrote:</p><blockquote><p class="bb-quote-author">Rosics wrote:</p><span class="bb-small">(<a href="https://scratch.mit.edu/discuss/post/8285785/">#1</a>)</span><br/>So on the top bar of the editor, the share button and the project name and see inside is condensed due to the debug button.<br/></blockquote>this seems to be in the process of being fixed according to a PR</blockquote>Let me know if It gets merged and I'll update it! <img src="//cdn.scratch.mit.edu/scratchr2/static/__cac9f5adaa9051e99d80cf9a10ac4e8f__/djangobb_forum/img/smilies/smile.png" /></div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8286748" class="blockpost roweven firstpost">
+        <a name="post-8286748"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#5</span><a href="/discuss/post/8286748/">Dec. 17, 2024 02:47:31</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/scratchcode1_2_3/">scratchcode1_2_3</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/scratchcode1_2_3/"><img src="//cdn2.scratch.mit.edu/get_image/user/67594247_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							1000+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html">grr as soon as i saw the button I knew something was off!<br/><img src="https://u.cubeupload.com/scratchcode1_2_3/ocd.png"></img><br/>it's 1 pixel too big downwards! it's not centered properly! AGHHHHHHHHHHHHHH</div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8287168" class="blockpost roweven firstpost">
+        <a name="post-8287168"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#6</span><a href="/discuss/post/8287168/">Dec. 17, 2024 12:47:20</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/starlightsparker/">starlightsparker</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/starlightsparker/"><img src="//cdn2.scratch.mit.edu/get_image/user/119710107_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							1000+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html">It’s broken on mobile. <br/>My browser / operating system: IPad iOS, Safari 605.1.15 (actually I’m using Firefox, it says that cause of WebKit though)<br/>Regular zoom (100%)<br/><img src="https://u.cubeupload.com/starlightsparkles/0EEC666A2C3E432B9699.jpeg"></img><br/>Max zoomed out (50%)<br/><img src="https://u.cubeupload.com/starlightsparkles/21D40750B67C45D09B52.jpeg"></img></div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8287199" class="blockpost roweven firstpost">
+        <a name="post-8287199"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#7</span><a href="/discuss/post/8287199/">Dec. 17, 2024 13:28:02</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/Rosics/">Rosics</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/Rosics/"><img src="//cdn2.scratch.mit.edu/get_image/user/134551631_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							500+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html"><blockquote><p class="bb-quote-author">starlightsparker wrote:</p>It’s broken on mobile. <br/>My browser / operating system: IPad iOS, Safari 605.1.15 (actually I’m using Firefox, it says that cause of WebKit though)<br/>Regular zoom (100%)<br/><img src="https://u.cubeupload.com/starlightsparkles/0EEC666A2C3E432B9699.jpeg"></img><br/>Max zoomed out (50%)<br/><img src="https://u.cubeupload.com/starlightsparkles/21D40750B67C45D09B52.jpeg"></img></blockquote>Added</div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8287948" class="blockpost roweven firstpost">
+        <a name="post-8287948"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#8</span><a href="/discuss/post/8287948/">Dec. 17, 2024 19:52:14</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/wms2024_163/">wms2024_163</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/wms2024_163/"><img src="//cdn2.scratch.mit.edu/get_image/user/default_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							42  posts
+							
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html">you need to add that the new scratcher to scratcher slideshow does not work - in the new scratcher to scratcher slideshow, you are taken to a slideshow of the community guidelines where you get stuck on the &ldquo;Scratchers treat everyone with respect.&rdquo; section but can't progress.<br/><br/>this bug means no new scratchers at the moment can become scratchers.</div>
+                        
+                            <p class="postedit"><em class="posteditmessage">Last edited by wms2024_163 (Dec. 17, 2024 19:52:38)</em></p>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8289011" class="blockpost roweven firstpost">
+        <a name="post-8289011"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#9</span><a href="/discuss/post/8289011/">Dec. 18, 2024 12:15:03</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/Rosics/">Rosics</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/Rosics/"><img src="//cdn2.scratch.mit.edu/get_image/user/134551631_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							500+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html"><blockquote><p class="bb-quote-author">wms2024_163 wrote:</p>you need to add that the new scratcher to scratcher slideshow does not work - in the new scratcher to scratcher slideshow, you are taken to a slideshow of the community guidelines where you get stuck on the &ldquo;Scratchers treat everyone with respect.&rdquo; section but can't progress.<br/><br/>this bug means no new scratchers at the moment can become scratchers.</blockquote>Added.</div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8289073" class="blockpost roweven firstpost">
+        <a name="post-8289073"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#10</span><a href="/discuss/post/8289073/">Dec. 18, 2024 13:01:46</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/scratchcode1_2_3/">scratchcode1_2_3</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/scratchcode1_2_3/"><img src="//cdn2.scratch.mit.edu/get_image/user/67594247_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							1000+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html"><blockquote><p class="bb-quote-author">Rosics wrote:</p><blockquote><p class="bb-quote-author">wms2024_163 wrote:</p>you need to add that the new scratcher to scratcher slideshow does not work - in the new scratcher to scratcher slideshow, you are taken to a slideshow of the community guidelines where you get stuck on the &ldquo;Scratchers treat everyone with respect.&rdquo; section but can't progress.<br/><br/>this bug means no new scratchers at the moment can become scratchers.</blockquote>Added.</blockquote>Actually, it does work, the button is just invisible.</div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8289260" class="blockpost roweven firstpost">
+        <a name="post-8289260"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#11</span><a href="/discuss/post/8289260/">Dec. 18, 2024 15:12:32</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/kocyigit2011/">kocyigit2011</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/kocyigit2011/"><img src="//cdn2.scratch.mit.edu/get_image/user/81520480_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							23  posts
+							
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html">its not a bug its a feature</div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8289273" class="blockpost roweven firstpost">
+        <a name="post-8289273"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#12</span><a href="/discuss/post/8289273/">Dec. 18, 2024 15:17:14</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/Rosics/">Rosics</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/Rosics/"><img src="//cdn2.scratch.mit.edu/get_image/user/134551631_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							500+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html"><blockquote><p class="bb-quote-author">scratchcode1_2_3 wrote:</p><blockquote><p class="bb-quote-author">Rosics wrote:</p><blockquote><p class="bb-quote-author">wms2024_163 wrote:</p>you need to add that the new scratcher to scratcher slideshow does not work - in the new scratcher to scratcher slideshow, you are taken to a slideshow of the community guidelines where you get stuck on the &ldquo;Scratchers treat everyone with respect.&rdquo; section but can't progress.<br/><br/>this bug means no new scratchers at the moment can become scratchers.</blockquote>Added.</blockquote>Actually, it does work, the button is just invisible.</blockquote>It's still a bug as it's not supposed to be invisible.</div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8295531" class="blockpost roweven firstpost">
+        <a name="post-8295531"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#13</span><a href="/discuss/post/8295531/">Dec. 21, 2024 21:27:14</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/50_scratch_tabs/">50_scratch_tabs</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/50_scratch_tabs/"><img src="//cdn2.scratch.mit.edu/get_image/user/82953483_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							1000+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html">Depending on your screen size the sprite deletion confirmation may go off the screen and you may have to zoom out to see the buttons. I'll see if I can replicate this and give an image. (Might take a while because the bug first happened on my school Chromebook and I'm on Christmas break.)</div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8295541" class="blockpost roweven firstpost">
+        <a name="post-8295541"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#14</span><a href="/discuss/post/8295541/">Dec. 21, 2024 21:32:40</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/-ParrotXCoder-/">-ParrotXCoder-</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/-ParrotXCoder-/"><img src="//cdn2.scratch.mit.edu/get_image/user/98100002_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							7  posts
+							
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html"><blockquote><p class="bb-quote-author">Rosics wrote:</p><blockquote><p class="bb-quote-author">scratchcode1_2_3 wrote:</p><blockquote><p class="bb-quote-author">Rosics wrote:</p><blockquote><p class="bb-quote-author">wms2024_163 wrote:</p>you need to add that the new scratcher to scratcher slideshow does not work - in the new scratcher to scratcher slideshow, you are taken to a slideshow of the community guidelines where you get stuck on the &ldquo;Scratchers treat everyone with respect.&rdquo; section but can't progress.<br/><br/>this bug means no new scratchers at the moment can become scratchers.</blockquote>Added.</blockquote>Actually, it does work, the button is just invisible.</blockquote>It's still a bug as it's not supposed to be invisible.</blockquote><br/>Unrelated note scratch cloud var issues</div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8296858" class="blockpost roweven firstpost">
+        <a name="post-8296858"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#15</span><a href="/discuss/post/8296858/">Dec. 22, 2024 20:13:29</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/starlightsparker/">starlightsparker</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/starlightsparker/"><img src="//cdn2.scratch.mit.edu/get_image/user/119710107_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							1000+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html">It’s starlightsparker—not starlightsparkler…</div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8296860" class="blockpost roweven firstpost">
+        <a name="post-8296860"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#16</span><a href="/discuss/post/8296860/">Dec. 22, 2024 20:14:44</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/Rosics/">Rosics</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/Rosics/"><img src="//cdn2.scratch.mit.edu/get_image/user/134551631_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							500+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html"><blockquote><p class="bb-quote-author">starlightsparker wrote:</p>It’s starlightsparker—not starlightsparkler…</blockquote>Should be fixed.</div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8296861" class="blockpost roweven firstpost">
+        <a name="post-8296861"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#17</span><a href="/discuss/post/8296861/">Dec. 22, 2024 20:15:27</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/8to16/">8to16</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/8to16/"><img src="//cdn2.scratch.mit.edu/get_image/user/141263923_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							1000+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html"><blockquote><p class="bb-quote-author">Rosics wrote:</p><span class="bb-small">(<a href="https://scratch.mit.edu/discuss/post/8285785/">#1</a>)</span><br/>Scratch cloud variable monitor page is not loading. <br/></blockquote>Not just that, but cloud variables in general are broken. Try going onto blockbit or one of griffpatch's cloud projects. It will not work.</div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8296867" class="blockpost roweven firstpost">
+        <a name="post-8296867"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#18</span><a href="/discuss/post/8296867/">Dec. 22, 2024 20:19:34</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/Rosics/">Rosics</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/Rosics/"><img src="//cdn2.scratch.mit.edu/get_image/user/134551631_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							500+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html"><blockquote><p class="bb-quote-author">8to16 wrote:</p><blockquote><p class="bb-quote-author">Rosics wrote:</p><span class="bb-small">(<a href="https://scratch.mit.edu/discuss/post/8285785/">#1</a>)</span><br/>Scratch cloud variable monitor page is not loading. <br/></blockquote>Not just that, but cloud variables in general are broken. Try going onto blockbit or one of griffpatch's cloud projects. It will not work.</blockquote>Should be fixed.</div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8296891" class="blockpost roweven firstpost">
+        <a name="post-8296891"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#19</span><a href="/discuss/post/8296891/">Dec. 22, 2024 20:41:39</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/scratchcode1_2_3/">scratchcode1_2_3</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/scratchcode1_2_3/"><img src="//cdn2.scratch.mit.edu/get_image/user/67594247_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							1000+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html"><blockquote><p class="bb-quote-author">Rosics wrote:</p><span class="bb-small">(<a href="https://scratch.mit.edu/discuss/post/8285785/">#1</a>)</span><br/>A: The backpack has a limit, try deleting things.<br/></blockquote>no&#8230; it doesn't? I have like a thousand things in there, never seen a limit.</div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p8296895" class="blockpost roweven firstpost">
+        <a name="post-8296895"></a>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="conr">#20</span><a href="/discuss/post/8296895/">Dec. 22, 2024 20:45:01</a>
+            </div>
+            <div class="box-content">
+                <div class="postleft">
+                    <dl>
+                        <dt><a class="black username" href="/users/scratchcode1_2_3/">scratchcode1_2_3</a></dt>
+                        
+                        <dd class="postavatar">
+                            <a href="/users/scratchcode1_2_3/"><img src="//cdn2.scratch.mit.edu/get_image/user/67594247_90x90.png" width="90" height="90"></a>
+                        </dd>
+						
+						
+                            Scratcher
+                        
+						
+						<br>
+						
+							1000+ posts
+						
+						
+                        
+
+                        
+                    </dl>
+                </div>
+                <div class="postright">
+                    <h3>The List of Bugs</h3>
+                    <div class="postmsg">
+                        <div class="post_body_html"><blockquote><p class="bb-quote-author">Rosics wrote:</p><span class="bb-small">(<a href="https://scratch.mit.edu/discuss/post/8285785/">#1</a>)</span><br/>Firefox has worse performance when running scratch projects, however, you can always try fixing NextDNS. <span class="bb-small"><a href="https://scratch.mit.edu/discuss/post/8296545/">source</a></span> <br/></blockquote>this is due to firefox using spidermonkey js interpreter instead of v8 iirc<br/><br/><blockquote><p class="bb-quote-author">Rosics wrote:</p><span class="bb-small">(<a href="https://scratch.mit.edu/discuss/post/8285785/">#1</a>)</span><br/>utton and the project name and <span class="bb-underline">see inside</span> i<br/></blockquote>see project page*<br/><br/></div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="clearer"></div>
+                <div class="postfootleft">
+                </div>
+                <div class="postfootright">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="linksb">
+
+    
+
+<div class="pagination">
+    
+        <span class="disabled prev">&lsaquo;&lsaquo; previous</span>
+    
+    
+        
+            
+                <span class="current page">1</span>
+            
+        
+    
+        
+            
+                <a href="?page=2" class="page">2</a>
+            
+        
+    
+        
+            
+                <a href="?page=3" class="page">3</a>
+            
+        
+    
+        
+            
+                <a href="?page=4" class="page">4</a>
+            
+        
+    
+        
+            ...
+        
+    
+        
+            
+                <a href="?page=14" class="page">14</a>
+            
+        
+    
+        
+            
+                <a href="?page=15" class="page">15</a>
+            
+        
+    
+        
+            
+                <a href="?page=16" class="page">16</a>
+            
+        
+    
+        
+            
+                <a href="?page=17" class="page">17</a>
+            
+        
+    
+    
+        <a href="?page=2" class="next">next &rsaquo;&rsaquo;</a>
+    
+</div>
+
+
+
+    <ul>
+        <li><a href="/discuss/">Discussion Forums</a></li>
+        <li>&raquo; <a href="/discuss/3/">Bugs and Glitches</a> </li>
+        <li>
+            &raquo; The List of Bugs <a href="/discuss/feeds/topic/795087/"><img src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//djangobb_forum/img/feed-icon-small.png" alt="[RSS Feed]" title="[RSS Feed]" class="breadcrumb_rss" /></a>
+        </li>
+    </ul>
+
+    
+        <div class="follow-topic bottom">
+            <img src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//images/ajax-loader.gif" class="loading" style="display: none;" alt="loading..." />
+            <p class="error" style="display: none;">There was an error :( Try again?</p>
+            <form method="post" action="/discuss/subscription/topic/795087/add/">
+                <input type='hidden' name='csrfmiddlewaretoken' value='cOPDWGZiG4XxkvkGMeK4DEMdZ4v3C6sJ' />
+                <button type="submit"  class="follow-button button blue" title="">Follow Discussion</button>
+            </form>
+            <form method="post" action="/discuss/subscription/topic/795087/delete/">
+                <input type='hidden' name='csrfmiddlewaretoken' value='cOPDWGZiG4XxkvkGMeK4DEMdZ4v3C6sJ' />
+                <button type="submit" style="display: none;" class="unfollow-button button grey" title="Stop getting messages about new posts to this discussion">Unfollow Discussion</button>
+            </form>
+        </div>
+    
+
+    <div class="clearer"></div>
+</div>
+
+
+
+
+    <div id="brdfooter" class="box">
+        <div class="box-content">
+            
+<div class="conl">
+    
+    
+    </dl>
+</div>
+
+            <p class="foot conr">Powered by <a href="http://djangobb.org/">DjangoBB</a></p>
+            <div class="clearer"></div>
+        </div>
+    </div>
+</div>
+</div>
+
+        </div>
+
+
+        
+        
+    </div>
+    <div id="footer">
+      <div class="container">
+        <style>
+          #footer ul.footer-col li {
+            list-style-type:none;
+            display: inline-block;
+            width: 184px;
+            text-align: left;
+            vertical-align: top;
+          }
+
+          #footer ul.footer-col li h4 {
+            font-weight: bold;
+            font-size: 14px;
+            color: #666;
+          }
+
+        </style>
+        <ul class="clearfix footer-col">
+          <li>
+            <h4>About</h4>
+            <ul>
+              <li><a href="/about/">About Scratch</a></li>
+              <li><a href="/parents/">For Parents</a></li>
+              <li><a href="/educators/">For Educators</a></li>
+              <li><a href="/developers">For Developers</a></li>
+              <li><a href="/info/credits/">Our Team</a></li>
+              <li><a href="https://www.scratchfoundation.org/supporters">Donors</a></li>
+              <li><a href="/jobs/">Jobs</a></li>
+              <li><a href = "/donate">Donate</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Community</h4>
+            <ul>
+              <li><a href = "/community_guidelines/">Community Guidelines</a></li>
+              <li><a href = "/discuss/">Discussion Forums</a></li>
+              <li><a href = "http://wiki.scratch.mit.edu/">Scratch Wiki</a></li>
+              <li><a href = "/statistics/">Statistics</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Resources</h4>
+            <ul>
+              <li><a href = "/ideas">Ideas</a></li>
+              <li><a href = "/info/faq/">FAQ</a></li>
+              <li><a href = "/download">Download</a></li>
+              <li><a href = "/contact-us/">Contact Us</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="/terms_of_use/">Terms of Use</a></li>
+              <li><a href="/privacy_policy/">Privacy Policy</a></li>
+              <li><a href = "/cookies/">Cookies</a></li>
+              <li><a href = "/DMCA/">DMCA</a></li>
+              <li><a href = "https://www.scratchfoundation.org/dsa/">DSA Requirements</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Scratch Family</h4>
+            <ul>
+              <li><a href="http://scratched.gse.harvard.edu/">ScratchEd</a></li>
+              <li><a href="http://www.scratchjr.org/">ScratchJr</a></li>
+              <li><a href="http://day.scratch.mit.edu/">Scratch Day</a></li>
+              <li><a href="/conference/">Scratch Conference</a></li>
+              <li><a href="http://www.scratchfoundation.org/">Scratch Foundation</a></li>
+              <li><a href="/store">Scratch Store</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="clearfix" id="footer-menu" >
+          <li>
+            <form id="lang-dropdown" method="post" action="/i18n/setlang/">
+              <select id="language-selection" name="language">
+              
+                <option value="ab" >Аҧсшәа</option>
+              
+                <option value="af" >Afrikaans</option>
+              
+                <option value="ar" >العربية</option>
+              
+                <option value="ast" >Asturianu</option>
+              
+                <option value="am" >አማርኛ</option>
+              
+                <option value="an" >Aragonés</option>
+              
+                <option value="az" >Azeri</option>
+              
+                <option value="id" >Bahasa Indonesia</option>
+              
+                <option value="bn" >বাংলা</option>
+              
+                <option value="be" >Беларуская</option>
+              
+                <option value="bg" >Български</option>
+              
+                <option value="ca" >Català</option>
+              
+                <option value="cs" >Česky</option>
+              
+                <option value="cy" >Cymraeg</option>
+              
+                <option value="da" >Dansk</option>
+              
+                <option value="de" >Deutsch</option>
+              
+                <option value="et" >Eesti</option>
+              
+                <option value="el" >Ελληνικά</option>
+              
+                <option value="en" selected >English</option>
+              
+                <option value="es" >Español (España)</option>
+              
+                <option value="es-419" >Español Latinoamericano</option>
+              
+                <option value="eo" >Esperanto</option>
+              
+                <option value="eu" >Euskara</option>
+              
+                <option value="fa" >فارسی</option>
+              
+                <option value="fil" >Filipino</option>
+              
+                <option value="fr" >Français</option>
+              
+                <option value="fy" >Frysk</option>
+              
+                <option value="ga" >Gaeilge</option>
+              
+                <option value="gd" >Gàidhlig</option>
+              
+                <option value="gl" >Galego</option>
+              
+                <option value="ko" >한국어</option>
+              
+                <option value="ha" >Hausa</option>
+              
+                <option value="hy" >Հայերեն</option>
+              
+                <option value="he" >עִבְרִית</option>
+              
+                <option value="hi" >हिंदी</option>
+              
+                <option value="hr" >Hrvatski</option>
+              
+                <option value="xh" >isiXhosa</option>
+              
+                <option value="zu" >isiZulu</option>
+              
+                <option value="is" >Íslenska</option>
+              
+                <option value="it" >Italiano</option>
+              
+                <option value="ka" >ქართული ენა</option>
+              
+                <option value="kk" >қазақша</option>
+              
+                <option value="qu" >Kichwa</option>
+              
+                <option value="sw" >Kiswahili</option>
+              
+                <option value="ht" >Kreyòl ayisyen</option>
+              
+                <option value="ku" >Kurdî</option>
+              
+                <option value="ckb" >کوردیی ناوەندی</option>
+              
+                <option value="lv" >Latviešu</option>
+              
+                <option value="lt" >Lietuvių</option>
+              
+                <option value="hu" >Magyar</option>
+              
+                <option value="mi" >Māori</option>
+              
+                <option value="mn" >Монгол хэл</option>
+              
+                <option value="nl" >Nederlands</option>
+              
+                <option value="ja" >日本語</option>
+              
+                <option value="ja-Hira" >にほんご</option>
+              
+                <option value="nb" >Norsk Bokmål</option>
+              
+                <option value="nn" >Norsk Nynorsk</option>
+              
+                <option value="oc" >Occitan</option>
+              
+                <option value="or" >ଓଡ଼ିଆ</option>
+              
+                <option value="uz" >Oʻzbekcha</option>
+              
+                <option value="th" >ไทย</option>
+              
+                <option value="km" >ភាសាខ្មែរ</option>
+              
+                <option value="pl" >Polski</option>
+              
+                <option value="pt" >Português</option>
+              
+                <option value="pt-br" >Português Brasileiro</option>
+              
+                <option value="rap" >Rapa Nui</option>
+              
+                <option value="ro" >Română</option>
+              
+                <option value="ru" >Русский</option>
+              
+                <option value="nso" >Sepedi</option>
+              
+                <option value="tn" >Setswana</option>
+              
+                <option value="sk" >Slovenčina</option>
+              
+                <option value="sl" >Slovenščina</option>
+              
+                <option value="sr" >Српски</option>
+              
+                <option value="fi" >Suomi</option>
+              
+                <option value="sv" >Svenska</option>
+              
+                <option value="vi" >Tiếng Việt</option>
+              
+                <option value="tr" >Türkçe</option>
+              
+                <option value="uk" >Українська</option>
+              
+                <option value="zh-cn" >简体中文</option>
+              
+                <option value="zh-tw" >繁體中文</option>
+              
+              </select>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+
+    
+<!-- templates/modal-login.html block -->
+	    <div class="modal hide fade in" id="login-dialog" style="width: 450px">
+        <form method="post" action="/login/">
+          <fieldset>
+            <div class="modal-header">
+              <a href="#" data-dismiss="modal" class="close">x
+              </a>
+	      <h3>Sign in</h3>
+            </div>
+            <div class="modal-body">
+            
+              <div class="control-group">
+		      <label class="control-label" for="username">Username
+                </label>
+                <div class="controls">
+                  <input class="username" type="text" name="username" maxlength="30" />
+                </div>
+              </div>
+              <div class="control-group">
+		            <label class="control-label" for="password">Password
+                </label>
+                <div class="controls">
+                  <input type="password" name="password" class="password" />
+                </div>
+              </div>
+              
+            </div>
+            <div class="modal-footer">
+              <span class="error">
+              </span>
+              <div class="buttons-right">
+                <button class="button primary" type="submit">Sign in</button> 
+                
+		<a data-control="registration">Or Join Scratch</a>
+                
+              </div>
+            </div>
+           
+          </fieldset>
+        </form>
+        <iframe class="iframeshim" frameborder="0" scrolling="no"><html><head></head><body></body></html></iframe>
+      </div>
+<!-- end templates/modal-login.html -->
+
+    
+        <div id="registration" class="registration modal hide fade" data-backdrop="static">
+          <iframe class="iframeshim" frameborder="0" scrolling="no"><html><head></head><body></body></html></iframe>
+        </div>
+    
+
+    
+    
+
+    
+    
+
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//js/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__/js/main.js" charset="utf-8"></script>
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__/js/base.js" charset="utf-8"></script>
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__/js/lazyload.js" charset="utf-8"></script>
+    
+    <script type="text/javascript">
+                var STATIC_URL = "//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__/";
+                var MEDIA_URL = "//uploads.scratch.mit.edu/";
+                var POST_PREVIEW_URL = "/discuss/preview/";
+    </script>
+
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//djangobb_forum/scratchblocks/scratchblocks.min.js"></script>
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//djangobb_forum/scratchblocks/translations.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    (function ($) {
+        scratchblocks._currentLanguage = 'en';
+
+        var forum_langs = {13: "de", 14: "es", 15: "fr", 16: "zh_cn", 17: "pl",
+            18: "ja", 19: "nl", 20: "pt", 21: "it", 22: "he", 23: "ko", 24: "nb",
+            25: "tr", 26: "el", 27: "ru", 33: "ca", 36: "id"};
+
+        function match_path(path) {
+            return new RegExp("^/discuss/([0-9]+)/").exec(path);
+        }
+
+        var match = match_path(window.location.pathname);
+        if (!match) {
+            var links = $(".linkst ul a");
+            for (var i=0; i<links.length; i++) {
+                match = match_path($(links[i]).attr("href"));
+                if (match) break;
+            }
+        }
+        scratchblocks._currentLanguages = ['en'];
+        if (match) {
+          var forum_id = parseInt(match[1]);
+          var code = forum_langs[forum_id];
+
+          if (code in scratchblocks.allLanguages) {
+              scratchblocks._currentLanguages = ['en', code];
+          }
+        }
+    })(jQuery);
+    </script>
+    
+    
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      scratchblocks.renderMatching('pre.blocks', {
+        scale: 0.675,
+        languages: scratchblocks._currentLanguages,
+        style: getCookie("scratchtheme") == "high-contrast" ? "scratch3-high-contrast" : "scratch3",
+        replace: function(el, svg, doc, options) {
+          // add scratchblocks to `el`
+          scratchblocks.replace(el, svg, doc, options);
+        },
+      });
+    });
+    </script>
+
+    <!-- Highlightjs goodies -->
+
+    
+
+  <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//djangobb_forum/js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//djangobb_forum/js/forums.js"></script>
+
+    
+
+    
+    
+
+
+<script type="text/template" id="template-collection-count">
+  <%- count %>
+</script>
+
+<script type="text/template" id="template-comment-actions">
+<% if (can_delete) { %>
+  <% if (is_staff && comment_user == current_user) { %>
+    <span data-control="delete" class="actions report">Delete</span>
+  <% } else if (type != "gallery" || comment_user == current_user) { %>
+    <span data-control="delete" class="actions report">Delete</span>
+  <% } %>
+<% } %>
+<% if (current_user != comment_user) { %>
+  <span data-control="report" class="actions report">
+  <% if (student_of_educator) { %>
+    Delete
+  <% } else { %>
+    Report
+  <% } %></span>
+<% } %>
+</script>
+
+<script type="text/template" id="template-modal-login">
+<div class="modal hide fade in" id="login-dialog" style="width: 450px">
+  <form method="post" action="/login/">
+    <fieldset>
+      <div class="modal-header">
+        <a href="#" data-dismiss="modal" class="close">x
+        </a>
+        <h3>Login</h3>
+      </div>
+      <div class="modal-body">
+        <div class="control-group">
+        <label class="control-label" for="username">Username
+          </label>
+          <div class="controls">
+            <input id="username" type="text" name="username" maxlength="30" />
+          </div>
+        </div>
+        <div class="control-group">
+        <label class="control-label" for="password">Password
+          </label>
+          <div class="controls">
+            <input type="password" name="password" id="password" />
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <span class="error">
+        </span>
+        <span class="button primary" id="sign-in" data-control="site-login">
+        <span>{% trans "Sign in" $}
+          </span>
+        </span>
+      </div>
+    </fieldset>
+  </form>
+</div>
+</script>
+
+<script type="text/template" id="template-comment-reply">
+  <form>
+    <div class="control-group tooltip right">
+      <textarea name="content"></textarea>
+      
+      <span class="hovertext error" data-control="error" data-content="comment-error"><span class="arrow"></span><span class="text"></span></span>
+      <span class="small-text">You have <span id="chars-left-<%- comment_id %>">500</span> characters left.</span>
+    </div>
+    <div class="control-group">
+        <div class="button small" data-parent-thread="<%- thread_id %>" data-commentee-id="<%- commentee_id %>" data-control="modal-login"><a href="#null">Post</a></div>
+        <div class="button small grey" data-control="cancel"><a href="#null">Cancel</a></div>
+      <span class="notification"></span>
+    </div>
+  </form>
+</script>
+
+<script type="text/template" id="template-deletion-canceled">
+<div class="deletion-canceled">
+  <div class="form">
+    <p>
+    Your account was scheduled for deletion but you logged in. Your account has been reactivated. If you didn’t request for your account to be deleted, you should <a href="/accounts/password_change/">change your password</a> to make sure your account is secure. 
+    </p>
+  </div>
+</div>
+</script>
+
+<script type="text/template" id="template-unsupported-browser">
+  <div class="unsupported-browser banner" data-cue="unsupported_browser">
+    <div class="container">
+      <span>Scratch works best on newer browsers. We suggest you upgrade to <a href="/info/faq/#requirements">a supported browser</a>, <a href="/scratch2download/">download the offline editor</a>, <a href="https://en.scratch-wiki.info/wiki/List_of_Bug_Workarounds">or read about common workarounds</a>.</span>
+      <div class="close">x</div>
+    </div>
+  </div>
+</script>
+
+<script type="text/template" id="template-unsupported-msie">
+  <div class="unsupported-browser banner" data-cue="unsupported_browser">
+    <div class="container">
+      <span>Scratch will stop supporting Internet Explorer 8 on April 30, 2015. We suggest you upgrade to <a href="/info/faq/#requirements">a supported browser</a>, <a href="/scratch2download/">download the offline editor</a>, or <a href="https://en.scratch-wiki.info/wiki/List_of_Bug_Workarounds">read about common workarounds</a>.</span>
+      <div class="close">x</div>
+    </div>
+  </div>
+</script>
+
+
+
+
+    
+
+    
+
+    <!-- load javascript translation catalog, and javascript fuzzy date library -->
+    <script type="text/javascript" src="/jsi18n/"></script>
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__/js/lib/jquery.timeago.settings.js"></script>
+
+    
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//js/apps/registration/main.js"></script>
+    
+
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__774e7841eab6f875e16f7cec38b2f7c3__//js/apps/global.js"></script>
+    <script>
+      Scratch.NotificationPollTime = 300000;
+    </script>
+
+    
+
+    
+    <script>
+    $(document).on("accountnavready", function(e){
+        $('#topnav .messages').notificationsAlert();
+    });
+    </script>
+    
+    <script type="text/javascript">
+      var today = new Date();
+      if (today.getDate() === 1 && today.getMonth() === 3) {
+        document.write(';');
+      }
+    </script>
+  </body>
+  <!-- Site Version: 3.2025.01.07.01_2025_01_07_09_44 -->
+</html>
